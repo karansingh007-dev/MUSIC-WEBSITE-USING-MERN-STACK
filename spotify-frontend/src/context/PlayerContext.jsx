@@ -5,7 +5,7 @@ export const PlayerContext = createContext();
 
 const PlayerContextProvider = (props) => {
 
-    const url = "https://music-website-using-mern-stack-3.onrender.com";
+    const url = "https://music-website-using-mern-stack-back.onrender.com";
 
     const audioRef = useRef();
     const seekBar = useRef();
