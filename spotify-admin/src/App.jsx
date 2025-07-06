@@ -8,7 +8,7 @@ import ListAlbum from './pages/ListAlbum';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
-export const url = "https://music-website-using-mern-stack-3.onrender.com";
+export const url = "https://music-website-using-mern-stack-back.onrender.com";
 
 const App = () => {
   return (
