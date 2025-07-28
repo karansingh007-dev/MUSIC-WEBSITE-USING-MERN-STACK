@@ -7,9 +7,13 @@ function SongsItem({ image, name, desc, id }) {
     <div
       key={id}
       onClick={() => playWithId(id)}
-      className="min-w-[180px]  p-2 px-3 h-[150px] w-[210px] rounded cursor-pointer hover:bg-[#ffffff26]"
+      className="min-w-[180px]   h-[180px] w-[210px] rounded cursor-pointer hover:bg-[#ffffff26]"
     >
-      <img className="rounded w-full h-full object-contain" src={image} alt="album img" />
+      <img
+        className="rounded w-full h-full object-contain"
+        src={image}
+        alt="album img"
+      />
       <p className="font-bold mt-2 mb-1">{name}</p>
       <p className="text-slate-200 text-sm">{desc}</p>
     </div>
